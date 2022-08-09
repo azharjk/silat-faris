@@ -1,0 +1,289 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Palatino Linotype',serif;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.body {
+    background-image: url('img/Mentahan Cover Websiter.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.active {
+    color: brown;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Palatino Linotype;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+.logo-center {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: auto;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #F47622 ;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.wrapper .gambar {
+    margin: auto;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.navbar .gambar {
+    margin-right: 40px;
+}
+
+.body .logo-center {
+    margin: 0px;
+}
+
+.gambar {
+    padding: 0px;
+}
+
+.kolom {
+    float: right;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+    color: black;
+    float: left;
+    text-align: left;
+}
+
+.kolom .welcome {
+    text-align: left;
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+}
+
+
+footer {
+    line-height: 80px;
+    background-color: #F47622;
+}
+
+footer .kopirek {
+    text-align: center;
+}
+
+.badan {
+    background-color: black;
+
+}
+
+.badan .galeri {
+    padding: 40px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.badan .profile .foto4 {
+    min-width: 250px;
+    border: 1px solid white;
+}
+
+.badan h2 {
+    color: white;
+    text-align: center;
+}
+
+.badan .kontak {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.badan .whats {
+    padding: 20px;
+    align-items: center;
+}
+
+.badan .med {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.badan .ig {
+    display: flex;
+    align-items: center;
+}
+
+.maps {
+    margin-top: 120px;
+}
+
+.whats {
+    display: flex;
+}
+
+.badan h4 {
+    color: white;
+}
+
+
+.badan .selamat {
+    color: white;
+    font-family: 'Nunito Sans';
+    margin-top: 50px;
+}
+
+.badan .selamat2 {
+    color: white;
+    font-family: 'Nunito Sans';
+}
+
+.badan p {
+    color: white;
+    font-family: 'Nunito Sans';
+}
+
+.badan .profile .teks-beranda {
+    color: white;
+}
+
+.profile {
+    display: flex;
+}
+
+.badan {
+    height: auto;
+    padding-top: 20px;
+
+}
+
+.galeri .desk {
+    text-align: center;
+}
+
+.content {
+    padding: 80px 0px 50px 20px;
+    background-color: black;
+    display: flex;
+}
+
+.bodi .bpj {
+    text-align: center;
+}
+
+.bodi p {
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+.bodi h2 {
+    color: white;
+    font-size: 40px;
+}
+
+
+.badan .profile .teks {
+    color: white;
+}
+
+.gambar4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 5rem ;
+    gap: 10rem;
+}
+
+.wilujeng {
+    text-align: center;
+}
+
+.profile .foto {
+    border: 1px solid white;
+}
+
+.profile .des {
+    margin-left: 10px;
+}
+
+.ig {
+    margin-right: 60px;
+}
+
+.ig p {
+    margin-left: 6px;
+}
