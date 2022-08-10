@@ -239,6 +239,10 @@ footer .kopirek {
     display: flex;
 }
 
+.bodi .per{
+    font-size: 20px;
+}
+
 .bodi .bpj {
     text-align: center;
 }
@@ -265,7 +269,7 @@ footer .kopirek {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4rem 5rem ;
-    gap: 10rem;
+    gap: 8rem;
 }
 
 .wilujeng {
@@ -280,10 +284,45 @@ footer .kopirek {
     margin-left: 10px;
 }
 
-.ig {
-    margin-right: 60px;
+.lokasi {
+    display: flex;
+    font-size: 20px;
+    margin: 200px 0 0 20px;
 }
 
-.ig p {
-    margin-left: 6px;
+.lokasi p {
+    margin-left: 10px;
+}
+
+.body .uk {
+    font-size: 40px;
+    font-family: 'Palatino Linotype';
+
+}
+
+.teks {
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+.body p {
+    color: black;
+}
+
+.body .visi {
+    margin: 50px 0 0 12px;
+    width: max-content;
+    border-radius: 15px;
+    border-style: groove;
+    font-size: 25px;
+}
+
+.misi {
+    background-image: url('img/revisi artboard 4.png');
+}
+
+.misi .back {
+    font-size: 20px;
+    color: black;
+    text-decoration: solid;
 }
