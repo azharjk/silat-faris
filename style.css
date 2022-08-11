@@ -310,11 +310,19 @@ footer .kopirek {
 }
 
 .body .visi {
-    margin: 50px 0 0 12px;
-    width: max-content;
-    border-radius: 15px;
+    text-align: center;
+    margin: 50px 0 0 20px;
+    width: 20rem;
+    border-radius: 10px;
     border-style: groove;
     font-size: 25px;
+    color: black;
+    border-color: #F47622;
+    background-color: #F47622;
+}
+
+.body .visi:hover{
+    background-color: orange;
 }
 
 .misi {
@@ -325,4 +333,8 @@ footer .kopirek {
     font-size: 20px;
     color: black;
     text-decoration: solid;
+}
+
+.misi .back:hover {
+    color: orange;
 }
